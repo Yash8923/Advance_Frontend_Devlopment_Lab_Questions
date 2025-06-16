@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-3</title>
+</head>
+<body>
+    <h1>Hotel Booking Form</h1>
+    <form action="">
+        <table>
+            <tr>
+                <td><label for="name">Name</label></td>
+                <td><input type="text" id="name" name="name" placeholder="Enter Your Name" required></td>
+            </tr>
+            <tr>
+                <td><label for="check_in">Check-In Date</label></td>
+                <td><input type="date" id="check_in" name="check_in" required></td>
+            </tr>
+            <tr>
+                <td><label for="check_out">Check-Out Date</label></td>
+                <td><input type="date" id="check_out" name="check_out" required></td>
+            </tr>
+            <tr>
+                <td><label for="no_guest">Number of Guests</label></td>
+                <td><input type="number" id="no_guest" name="no_guest" min="1" placeholder="Number Of Guest" required></td>
+            </tr>
+            <tr>
+                <td><label for="room_type">Room Type</label></td>
+                <td>
+                    <select name="room_type" id="room_type" required>
+                        <option value="standard">Standard</option>
+                        <option value="deluxe">Deluxe</option>
+                        <option value="suite">Suite</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="additional_requirement">Additional Requirement</label></td>
+                <td><textarea name="additional_requirement" id="additional_requirement" rows="4" cols="30"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                    <button type="submit">Submit</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-3</title>
+</head>
+<body>
+    <form action="">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+        <br><br>
+        <label for="check_in">Check-In-Date</label>
+        <input type="date" id="check_in" name="check_in">
+        <br><br>
+        <label for="check_out">Check-Out_Date</label>
+        <input type="date" id="check_out" name="check_out">
+        <br><br>
+        <label for="no_guest">Number Of Guest</label>
+        <input type="number" id="no_guest" name="no_guest" min="1">
+        <br><br>
+        <label for="room_type">Room Type</label>
+         <select name="room_type" id="room_type">
+            <option value="standard">Standard</option>
+            <option value="deluxe">Deluxe</option>
+            <option value="suite">Suite</option>
+         </select>
+        <br><br>
+        <label for="additional_requirement">Additional Requirement</label>
+        <textarea name="additional_requirement" id="additional_requirements"></textarea>
+        <br><br>
+        <button type="submit">Submit</button>
+
+    </form>
+</body>
+</html> -->
