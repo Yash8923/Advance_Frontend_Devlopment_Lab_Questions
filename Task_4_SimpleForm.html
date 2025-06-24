@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Form</title>
+    <style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .login-container {
+        border: 2px solid #00a13a;
+        width: 600px;
+    }
+
+    .login-header {
+        background-color: #00a13a;
+        padding: 20px;
+        text-align: center;
+        color: white;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .login-form {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .login-form label {
+        margin-top: 10px;
+        color: orange;
+        font-weight: bold;
+    }
+
+    .login-form input {
+        padding: 10px;
+        margin-top: 5px;
+        border: 2px solid orange;
+        outline: none;
+        font-size: 16px;
+    }
+
+    .login-form button {
+        margin-top: 20px;
+        padding: 12px;
+        background-color: orange;
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        border: none;
+        cursor: pointer;
+    }
+
+    .login-form button:hover {
+        background-color: #e67e22;
+    }
+
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-header">
+            <h2>Login Form</h2>
+        </div>
+        <form class="login-form">
+            <label for="userid">userid</label>
+            <input type="text" id="userid" name="userid" required>
+
+            <label for="password">password</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</body>
+</html>
